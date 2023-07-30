@@ -1,5 +1,10 @@
+# yaml-language-server $schema=https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json
 $schema: https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json
 
 basics: 
   name: Matt Tew
   label: CEO & Web developer
+  email: resume.2023@tew.blue
+  phone: +61 473 024 362
+  image: https://www.gravatar.com/avatar/8efc7b92ab755e97d5e11ec552e79ab5?s=200
+  
