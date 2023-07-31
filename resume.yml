@@ -7,4 +7,27 @@ basics:
   email: resume.2023@tew.blue
   phone: +61 473 024 362
   image: https://www.gravatar.com/avatar/8efc7b92ab755e97d5e11ec552e79ab5?s=200
+  url: https://matt.tew.io
+  location:
+    address: 31G Tower 2 Uptown Parksuites
+    postalCode: 1634
+    city: Taguig
+    countryCode: PH
+    region: Metro Manila
+  profiles:
+    - network: Github
+      username: shmatt
+      url: https://github.com/shmatt
+    - network: Stack Overflow
+      username: matt-tew
+      url: https://stackoverflow.com/users/265966/matt-tew
+    - network: Mastedon
+      username: matt@tew.social
+      url: https://tew.social/@matt
+    - network: Twitter
+      username: shmatt
+      url: https://twitter.com/shmatt
+    - network: LinkedIn
+      username: matthewtew
+      url: https://stackoverflow.com/users/265966/matt-tew
   
