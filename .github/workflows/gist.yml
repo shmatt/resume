@@ -19,7 +19,7 @@ jobs:
         to: "json"
 
     - name: Save json to file
-      run: echo "${{ steps.yaml2json.outputs.output }}"
+      run: echo ${{ toJSON(steps.yaml2json.outputs.output) }} | resume.json
 
     - name: Update resume gist
       uses: exuanbo/actions-deploy-gist@v1
