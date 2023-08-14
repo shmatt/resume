@@ -1,0 +1,26 @@
+name: Publish Gist
+
+on: push
+
+jobs:
+  build-and-publish-json:
+    runs-on: ubuntu-latest 
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Convert yaml to json 
+      uses: fabasoad/data-format-converter-action@main
+      with:
+        input: "resume.yml"
+        from: "yaml"
+        to: "json"
+
+    - name: Update resume gist
+      uses: exuanbo/actions-deploy-gist@v1
+      with:
+        token: ${{ secrets.TOKEN }}
+        gist_id: 4e6c053773cd98bac5e06b71abb3a0b6
+        file_path: resume.json
+    
