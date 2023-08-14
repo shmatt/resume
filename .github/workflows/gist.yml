@@ -18,8 +18,12 @@ jobs:
         from: "yaml"
         to: "json"
 
-    - name: Save json to file
-      run: echo ${{ steps.yaml2json.outputs.output }} > resume.json
+    - name: Write json to file
+      uses: DamianReeves/write-file-action@master
+      with:
+        path: resume.json
+        contents: ${{ steps.yaml2json.outputs.output }} 
+        write-mode: replace
 
     - name: Update resume gist
       uses: exuanbo/actions-deploy-gist@v1
