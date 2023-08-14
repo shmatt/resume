@@ -45,7 +45,7 @@ work:
     description: Custom software development
     position: CEO / Web developer
     url: https://intellis.com.au
-    startDate: 2000-02-01
+    startDate: "2000-02"
     summary: Intellis has been building websites, communication systems, and enterprise software for Australian businesses since 2000.
     highlights:
       - Built and managed web sites and applications for numerous SME clients.
@@ -57,7 +57,7 @@ work:
     description: Full time overseas staffing for Australian business
     position: CEO
     url: https://awayteam.com.au
-    startDate: 2014-06-01
+    startDate: "2014-06"
     summary: AwayTeam™ provides a convenient and ethical way of recruiting and engaging competent and loyal Filipino online professionals on behalf of Australian businesses.
     highlights:
       - Built a platform to manage the recruitment, engagement and payroll of Filipino workers placed full time within Australian business clients.
@@ -68,8 +68,8 @@ work:
     location: Melbourne, Australia
     description: Development of integrated web and voice solutions for leading banks, telcos and government
     position: Senior Software Engineer
-    startDate: 2007-07-01
-    endDate: 2009-04-01
+    startDate: "2007-07"
+    endDate: "2009-04"
     highlights:
       - Worked day-to-day implementing technical solutions in partnership with leading Australian global brands including BT (British Telecom), Telstra, and Commonwealth Bank.
       - Developed expertise in the development, automation, and integration of telecommunication systems (Phone, SMS).
@@ -78,8 +78,8 @@ work:
     location: Melbourne, Australia
     description: Visual Jazz was a leading digital agency, eventually becoming Isobar Australia, and later merging with Dentsu Australia
     position: Senior Web Developer
-    startDate: 2006-03-01
-    endDate: 2007-06-01
+    startDate: "2006-03"
+    endDate: "2007-06"
     highlights:
       - Provided web development services for prolific brands, such as Holden, Australia Post, Suzuki, Florsheim, MCG, Chadstone Shopping Centre, Mecca Cosmetics, and Defence Force Recruiting.
 
@@ -181,11 +181,11 @@ skills:
 projects:
   - name: FrameConnect
     summary: POS and pricing system for the Frame Today retail chain
-    startDate: 2020-10-01
+    startDate: "2020-10"
     entity: Frame Today
   - name: ecp.online
     summary: Engagement and payroll platform for Australian contractors
-    startDate: 2019-07-01
+    startDate: "2019-07"
     entity: Engage Comply & Pay
   - name: Trackmap
     summary: GPS tracker platform
