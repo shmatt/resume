@@ -23,7 +23,7 @@ jobs:
       with:
         path: resume.json
         contents: ${{ steps.yaml2json.outputs.output }} 
-        write-mode: replace
+        write-mode: overwrite
 
     - name: Update resume gist
       uses: exuanbo/actions-deploy-gist@v1
