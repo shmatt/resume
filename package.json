@@ -1,0 +1,27 @@
+{
+  "name": "jsonresume-theme-onething",
+  "version": "1.0.0",
+  "description": "Personal resume theme and resume renderer for Matt Tew (shmatt)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node index.js",
+    "watch": "node index.js --watch",
+    "serve": "node index.js --serve",
+    "start": "node index.js --watch --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shmatt/resume.git"
+  },
+  "author": "Matt Tew",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shmatt/resume/issues"
+  },
+  "homepage": "https://github.com/shmatt/resume#readme",
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "nunjucks": "^3.2.4"
+  }
+}

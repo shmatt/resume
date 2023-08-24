@@ -28,7 +28,7 @@ basics:
     - network: Medium
       username: matt-tew
       url: https://medium.com/@matt-tew
-    - network: Mastedon
+    - network: Mastodon
       username: matt@tew.social
       url: https://tew.social/@matt
     - network: Twitter
@@ -90,10 +90,11 @@ work:
 skills:
   - name: Web development
     level: Expert
-    kewords:
+    keywords:
       - Microsoft.Net
       - C#
       - NHibernate
+      - Node
       - Angular
       - Typescript
       - Javascript
