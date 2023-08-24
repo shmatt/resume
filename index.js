@@ -38,6 +38,8 @@ const renderResumeYml = () => {
 
 const writeResume = () => {
 
+  const html = renderResumeYml();
+
   if(!html) {
     return;
   }
@@ -83,7 +85,7 @@ const serve = () => {
 const watchOn = process.argv.indexOf("--watch") > -1;
 const serveOn = process.argv.indexOf("--serve") > -1;
 
-renderResumeYml();
+writeResume();
 
 if(watchOn) watch();
 if(serveOn) serve();
