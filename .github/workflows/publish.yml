@@ -36,4 +36,4 @@ jobs:
           bucket: matt.tew.io/resume
           bucket-region: ap-southeast-2
           dist-id: EHETIWCRJ7W6U
-          invalidation: /resume/*
+          invalidation: /resume*
