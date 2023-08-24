@@ -43,7 +43,7 @@ work:
   - name: Intellis
     location: Melbourne, Australia
     description: Custom software development
-    position: CEO / Web developer
+    position: Founder, CEO & Web developer
     url: https://intellis.com.au
     startDate: "2000-02"
     summary: Intellis has been building websites, communication systems, and enterprise software for Australian businesses since 2000.
@@ -53,9 +53,9 @@ work:
       - Have build solid and loyal relationships with clients spanning many years.
           
   - name: AwayTeam
-    location: Melbourne, Austrialia and Manila, Philippines
+    location: Melbourne, Australia and Manila, Philippines
     description: Full time overseas staffing for Australian business
-    position: CEO
+    position: Founder & CEO
     url: https://awayteam.com.au
     startDate: "2014-06"
     summary: AwayTeam™ provides a convenient and ethical way of recruiting and engaging competent and loyal Filipino online professionals on behalf of Australian businesses.
@@ -63,6 +63,17 @@ work:
       - Built a platform to manage the recruitment, engagement and payroll of Filipino workers placed full time within Australian business clients.
       - Have gained a deep understanding of Filipino culture, work ethic and employment practices.
       - Have many years of first hand experience managing a remote and global team.
+
+  - name: The Space
+    location: Cagayan de Oro, Philippines
+    description: A co-working space and community for online workers
+    position: Founder & CEO
+    startDate: "2016-06"
+    endDate: "2018-06"
+    summary: The Space was a co-working space and community for online workers digital nomads in Cagayan de Oro, Philippines. It was the first of its kind in the city, and was a catalyst for the establishment of similar facilities and for the growth of the online worker community in the city. 
+    highlights: 
+      - Became a well known brand in the local online worker community.
+      - Established an automated access system featuring RFID cards, a web based management system, automated door locks, and on-premises screens.
 
   - name: CPS Technology Group
     location: Melbourne, Australia
