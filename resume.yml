@@ -136,8 +136,10 @@ skills:
       - Figma
       - Git
       - Github
+      - Codespaces
       - Github Actions
       - Bitbucket Pipelines 
+      - Cloudcannon
       - Appveyor
       - Subversion
       - MySQL
@@ -154,6 +156,7 @@ skills:
       - Google APIs
       - OpenAI
       - Azure
+      - Cloudflare
       - Google Workspaces
       - Stripe
       - Eway
