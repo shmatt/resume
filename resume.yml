@@ -18,6 +18,7 @@ basics:
     city: Taguig
     countryCode: PH
     region: Metro Manila
+
   profiles:
     - network: Github
       username: shmatt
@@ -215,12 +216,15 @@ projects:
   - name: Fira Code Nerd Font VS Code extension
     summary: A VS Code extension that makes Fira Code Nerd Font available without being locally installed
     url: https://marketplace.visualstudio.com/items?itemName=Entuent.fira-code-nerd-font
+    entity: Personal
   - name: ChatGPT Assistants Vector Store Sync
     summary: A GitHub action to sync files from a repository to an OpenAI Assistants v2 Vector Store
     url: https://github.com/marketplace/actions/chatgpt-assistants-vector-store-sync 
+    entity: Personal
   - name: OneThing Clip
     summary: A personal rust application that provides a universal clipboard for cli, web, and android
     url: https://github.com/intellis-team/onething-clip
+    entity: Personal
   - name: CommSec
     summary: Securities trading phone platform
     entity: Commonwealth Bank

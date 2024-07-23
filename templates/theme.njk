@@ -591,7 +591,9 @@
         {% for project in projects %}
         <li class="{{ project.name | slugify }} {{ project.entity | slugify }}">
           <h3 class="name"><a href="{{ project.url}}" class="url">{{ project.name }}</a></h3>
+          {% if project.entity %}
           <div class="entity">{{ project.entity }}</div>
+          {% endif %}
           {% if project.startDate or project.endDate %}
           <div class="dates">
             {% if project.startDate %}<span class="startDate">{{ project.startDate }}</span>{% endif %}
