@@ -200,16 +200,27 @@ projects:
     summary: POS and pricing system for the Frame Today retail chain
     startDate: "2020-10"
     entity: Frame Today
+    url: https://frametoday.com.au
   - name: ecp.online
     summary: Engagement and payroll platform for Australian contractors
     startDate: "2019-07"
     entity: Engage Comply & Pay
+    url: https://ecp.online
   - name: Trackmap
     summary: GPS tracker platform
     entity: MyBuddyGard
   - name: Hospital Television Rentals
     summary: Patient televion and phone rental platform for a number of Australian hospitals 
     entity: Hills Australia
+  - name: Fira Code Nerd Font VS Code extension
+    summary: A VS Code extension that makes Fira Code Nerd Font available without being locally installed
+    url: https://marketplace.visualstudio.com/items?itemName=Entuent.fira-code-nerd-font
+  - name: ChatGPT Assistants Vector Store Sync
+    summary: A GitHub action to sync files from a repository to an OpenAI Assistants v2 Vector Store
+    url: https://github.com/marketplace/actions/chatgpt-assistants-vector-store-sync 
+  - name: OneThing Clip
+    summary: A personal rust application that provides a universal clipboard for cli, web, and android
+    url: https://github.com/intellis-team/onething-clip
   - name: CommSec
     summary: Securities trading phone platform
     entity: Commonwealth Bank
